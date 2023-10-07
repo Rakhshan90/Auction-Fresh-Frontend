@@ -4,11 +4,11 @@ const Login = () => {
     return (
         <div className='container'>
             <div className="row">
-                <div className="col">
+                <div className="col-12 col-lg-4">
                     <h1>Login Your Account</h1>
                     <p>Login your Account and start exploring the Auction Fresh System</p>
                 </div>
-                <div className="col">
+                <div className="col-12 col-lg-8">
                     <div class="form-floating mb-3">
                         <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" />
                         <label htmlFor="floatingInput">Email address</label>
